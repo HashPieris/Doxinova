@@ -1,0 +1,90 @@
+# Git Ignore for DOXINOVA Website
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.tern-port
+.swp
+.swpn
+
+# OS Generated
+desktop.ini
+*.lnk
+
+# Node/NPM (if build process added later)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.npm
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build files (if added)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Testing
+coverage/
+.nyc_output
+test-results/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Dependencies (if backend added)
+venv/
+.venv
+env/
+ENV/
+
+# Cache
+.cache/
+*.cache
+
+# CDN/Asset files (can regenerate)
+*.map
+
+# Credentials & Secrets (IMPORTANT!)
+secrets/
+.credentials
+.api-keys
+config.local.js
+
+# Others
+.serverless
+.fusebox
+.dynamodb
